@@ -7,7 +7,7 @@
 
     <groupId>com.wrox</groupId>
     <artifactId>customer-support</artifactId>
-    <version>6.0.0.SNAPSHOT</version>
+    <version>7.0.0.SNAPSHOT</version>
     <packaging>war</packaging>
 
     <properties>
@@ -80,10 +80,10 @@
             </resource>
         </resources>
 
-        <testSourceDirectory>source/test/java/unit</testSourceDirectory>
+        <testSourceDirectory>source/test/java</testSourceDirectory>
         <testResources>
             <testResource>
-                <directory>source/test/java/resources</directory>
+                <directory>source/test/resources</directory>
             </testResource>
         </testResources>
 
